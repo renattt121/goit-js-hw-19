@@ -7,3 +7,4 @@ function handleRadioChange(event) {
 function addChangeListener(radio) {
   radio.addEventListener("change", handleRadioChange);
 }
+radios.forEach(addChangeListener);

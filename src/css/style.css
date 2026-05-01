@@ -10,19 +10,20 @@ body {
 
 input[type="text"] {
   padding: 6px 10px;
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
   outline: none;
 }
 
 input[type="text"]:focus {
-  border-color: #7f77dd;
+  border-color: violet;
 }
 
-input.valid {
-  border-color: #1d9e75;
+input[type="text"].valid {
+  border-color: #229772;
 }
-input.invalid {
-  border-color: #e24b4a;
+
+input[type="text"].invalid {
+  border-color: #ef3333;
 }
